@@ -73,4 +73,91 @@ body{
     height: 800px;
     }
 
+
+    /* feature section's style */
+
+.feature-container{
+    padding:0px 240px ;
+    }
+    .feature-content{
+    width: 594px;
+    margin: auto;
+    text-align: center;
+    }
+    .feature-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
     
+    }
+    .featuredescription{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    }
+    
+    /* feature flower section's style */
+    
+    .flower-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    margin: 48px 0px 32px 0px ;
+    
+    }
+    
+    .flower1{
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    background-image: url('/asset/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+    .flower2{
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    background-image: url('/asset/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    }
+    .flower3{
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+   width: 464px;
+    height: 538px;
+    background-image: url('/asset/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    }
+    .flower-name{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #4e4949;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    }
+
+
+    /* feature support section's style */
+    
+    .feature-support-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 86px 175px ;
+    text-align: center;
+    margin: 128px 0px;
+    }
