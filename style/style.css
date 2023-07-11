@@ -269,3 +269,30 @@ body{
             font-weight: 700;	
                 
             }	
+
+    /* footer section's style */
+
+    .footer-container{
+        background: #111010;
+        padding: 128px 648px;
+        text-align: center;
+     }
+
+    .footer-title {
+        color: #FFFFFF;
+    }
+
+    .footer-description{
+        color: rgba(255, 255, 255, 0.90);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        width: 625px;
+        margin-top:24px ;
+    }
+    .copyright{
+        color: rgba(255, 255, 255, 0.40);
+        font-size: 16px;
+        font-weight: 400;
+        margin-top:32px ;
+    }
